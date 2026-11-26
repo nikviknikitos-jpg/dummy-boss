@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "dummyboss",
+  "version": "${version}",
+  "name": "Cursed Dummy Trainer",
+  "description": "Cursed dummy that records your attacks and fights back using your own moves, weapons and acrobatics.",
+  "authors": ["Example"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.dummyboss.DummyBossMod"],
+    "client": ["com.example.dummyboss.client.DummyBossClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
